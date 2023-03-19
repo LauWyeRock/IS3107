@@ -18,7 +18,6 @@ reddit = praw.Reddit(client_id='mcW9kDtHdx6mQW4PvnQPeA',
 
 sub_reddits = reddit.subreddit('stocks')
 stocks = ["TSLA", "SE", "MSFT"]
-# hello wyerock
 
 
 def commentSentiment(ticker, urlT):
