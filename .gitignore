@@ -127,3 +127,36 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.bash_history
+.bash_logout
+.bashrc
+.gitattributes
+.keras/keras.json
+.profile
+.python_history
+.viminfo
+.pyenv/bin/pyenv
+airflow/airflow-webserver.pid
+airflow/airflow.db
+airflow/airflow.db
+airflow/dags/2.1_technical_analysis.pyZone.Identifier
+airflow/logs/scheduler/latest
+airflow/dags/glenmond/projecto.pyZone.Identifier
+airflow/dags/.vscode/settings.json
+airflow/dags/lstm2.pyZone.Identifier
+airflow/dags/lstm.pyZone.Identifier
+airflow/dags/9_Updating_closing_prices.pyZone.Identifier
+.gitignore
+.gitignore
+airflow/dags/6_raw_to_bq.pyZone.Identifier
+.gitignore
+airflow/dags/3.2_fundamental_table_join.pyZone.Identifier
+airflow/dags/4_bq_to_gcs.pyZone.Identifier
+airflow/dags/7_top10_volume_closing_prices.pyZone.Identifier
+airflow/dags/8_ML_predict.pyZone.Identifier
+airflow/dags/5_gcs_to_pg.pyZone.Identifier
+airflow/dags/3.1_technical_table_join.pyZone.Identifier
+airflow/dags/2.3_sentiment_processed.pyZone.Identifier
+airflow/dags/2.2_fundamental_processed.pyZone.Identifier
+airflow/dags/1_volume_increase.pyZone.Identifier
+airflow/airflow.db
