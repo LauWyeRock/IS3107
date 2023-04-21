@@ -47,7 +47,7 @@ Prerequisite: running file 1 first to obtain top 10 stocks
 
 DAG visualization
 
-![image](https://user-images.githubusercontent.com/97499447/233556690-222d4df0-dcec-4a10-bbff-a8f21618f5c8.png)
+![Dags_dependency](https://user-images.githubusercontent.com/97499447/233576433-76f91572-0d61-4eb8-a4ce-f26096e994ec.jpg)
 
 
 
