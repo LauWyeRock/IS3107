@@ -1,9 +1,11 @@
 
-#IS3107 Project
+IS3107 Project
 
-##Additional Airflow connections used to run the code:
-    - Google cloud connection
-    - Postgres Connection
+![IS3107_Class_Diagram](https://user-images.githubusercontent.com/97499447/233555203-1e2ed294-0f1d-4ef9-b3bb-339dbf11261e.jpg)
+
+Additional Airflow connections used to run the code:
+ - Google cloud connection
+ - Postgres Connection
 
 
 ## 1) Google cloud connection:
@@ -34,10 +36,26 @@
 4. Run file 4_bq_to_gcs.py
 5. Run file 5_gcs_to_pg.py
 
-##Independent of (2 - 5)
-##Prerequisite: running file 1 first to obtain top 10 stocks
+Independent of (2 - 5)
+Prerequisite: running file 1 first to obtain top 10 stocks
 
 6. Run file 6_snp500_to_bq.py (initialise the snp500 stocks closing price from 2018 to today, ran as a one time file)
 7. Run file 9_Updating_closing_prices.py (Replaces file 6_snp500_to_bq.py for daily updates of snp500 closing prices)
 8. run file 7_top10_volume_closing_prices.py
 9. run file 8_ML_predict.py
+
+
+DAG visualization
+
+![image](https://user-images.githubusercontent.com/97499447/233556690-222d4df0-dcec-4a10-bbff-a8f21618f5c8.png)
+
+
+
+
+Database Diagrams
+![IS3107 Fundamental Data](https://user-images.githubusercontent.com/97499447/233556152-6846ea47-1e65-4239-8a44-ea9bc0cf0839.jpg)
+![Sentimental Data and Machine Learning Data](https://user-images.githubusercontent.com/97499447/233556162-5909e68b-a0ff-4f4f-808c-610da2c0654a.jpg)
+![IS3107 Technical Data](https://user-images.githubusercontent.com/97499447/233556166-972a56a2-2fde-4bbb-b910-a55b8f01666a.jpg)
+![IS3107 Sentiment Data](https://user-images.githubusercontent.com/97499447/233556170-b87c1f3f-d8fe-424b-bc66-bde8aec344c2.jpg)
+
+
